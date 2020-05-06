@@ -29,7 +29,7 @@ There are 3 main directories in this repository:
 
 ### list-rtb-subnet.sh ###
 
-Author: Marcos Monteiro de Souza, <Marcos.Monteiro@gmail.com>
+Author: Marcos Monteiro de Souza, "<mrcsmonteiro@gmail.com>"
 
 Objective: List subnets and associated route tables for AWS accounts
 
