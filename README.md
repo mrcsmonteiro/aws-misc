@@ -33,11 +33,11 @@ Output: csv rows (stdout) with the following information:
 
 AWS_ACCOUNT_ALIAS,VPC_ID,VPC_TAG,ROUTE_TABLE_ID,ROUTE_TABLE_TAG,SUBNET_ID,SUBNET_TAG
 
-How to run: clone the repository, authenticate to Okta from your shell session, go to scripts and execute './list-rtb-subnet.sh'
+How to run: clone the repository, launch your shell session, go to scripts and execute './list-rtb-subnet.sh'
 
-Alternatively, you can use 'list-rtb-subnet-param.sh' to retrieve data from one specific AWS account. Example, to retrieve data from 'data-dev' profile:
+Alternatively, you can use 'list-rtb-subnet-param.sh' to retrieve data from one specific AWS account. Example, to retrieve data from 'poc' profile:
 
-./list-rtb-subnet-param.sh data-dev
+./list-rtb-subnet-param.sh poc
 
 TIP: You can redirect the output to a text file and use it on Excel or any other data visualization program to apply filters, create charts, etc.
 
@@ -51,11 +51,11 @@ Output: csv rows (stdout) with the following information:
 
 AWS_ACCOUNT_ALIAS,ROUTE_TABLE_ID,ROUTE_DESTINATION,ROUTE_TARGET
 
-How to run: clone the repository, authenticate to Okta from your shell session, go to scripts and execute './list-routes.sh'
+How to run: clone the repository, launch your shell session, go to scripts and execute './list-routes.sh'
 
-Alternatively, you can use 'list-routes-param.sh' to retrieve data from one specific AWS account. Example, to retrieve data from 'data-dev' profile:
+Alternatively, you can use 'list-routes-param.sh' to retrieve data from one specific AWS account. Example, to retrieve data from 'poc' profile:
 
-./list-routes-param.sh data-dev
+./list-routes-param.sh poc
 
 TIP: You can redirect the output to a text file and use it on Excel or any other data visualization program to apply filters, create charts, etc.
 
@@ -69,7 +69,7 @@ Output: csv rows (stdout) with the following information:
 
 AWS_ACCOUNT_ALIAS,ROUTE_TABLE_ID,ROUTE_DESTINATION,STATUS
 
-How to run: clone the repository, authenticate to Okta from your shell session, go to scripts and execute './blackhole-lookup.sh'
+How to run: clone the repository, launch your shell session, go to scripts and execute './blackhole-lookup.sh'
 
 TIP: You can redirect the output to a text file and use it on Excel or any other data visualization program to apply filters, create charts, etc.
 
@@ -83,10 +83,10 @@ Output: csv rows (stdout) with the following information:
 
 AWS_ACCOUNT_ALIAS,ALARM_NAME,OK_TOPIC,ALARM_TOPIC,INSUFFICIENT_DATA_TOPIC,STATE_VALUE,TIMESTAMP
 
-How to run: clone the repository, authenticate to Okta from your shell session, go to scripts and execute './list-alarms.sh'
+How to run: clone the repository, launch your shell session, go to scripts and execute './list-alarms.sh'
 
-Alternatively, you can use 'list-alarms.sh' to retrieve data from one specific AWS account. Example, to retrieve data from 'data-dev' profile:
+Alternatively, you can use 'list-alarms.sh' to retrieve data from one specific AWS account. Example, to retrieve data from 'poc' profile:
 
-./list-alarms-param.sh data-dev
+./list-alarms-param.sh poc
 
 TIP: You can redirect the output to a text file and use it on Excel or any other data visualization program to apply filters, create charts, etc.
