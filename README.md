@@ -23,13 +23,7 @@ There are 3 main directories in this repository:
 2. scripts: this is where you can find the MISC scripts
 3. tmp: directory for temporary files used during data processing
 
-### Contribution guidelines ###
-
-* Feel free to upload useful scripts and submit pull requests
-
 ### list-rtb-subnet.sh ###
-
-Author: Marcos Monteiro de Souza, "<mrcsmonteiro@gmail.com>"
 
 Objective: List subnets and associated route tables for AWS accounts
 
@@ -49,8 +43,6 @@ TIP: You can redirect the output to a text file and use it on Excel or any other
 
 ### list-routes.sh ###
 
-Author: Marcos Monteiro de Souza, <Marcos.Monteiro@gmail.com>
-
 Objective: List routes table ID, destination and target for AWS accounts
 
 Input: AWS accounts in the /files/aws-accounts file (must match with the profile name(s) defined in ~/.aws/credentials)
@@ -69,8 +61,6 @@ TIP: You can redirect the output to a text file and use it on Excel or any other
 
 ### blackhole-lookup.sh ###
 
-Author: Marcos Monteiro de Souza, <Marcos.Monteiro@gmail.com>
-
 Objective: Lookup route table IDs and respective destinations in 'blackhole' status, for all AWS accounts
 
 Input: AWS accounts in the /files/aws-accounts file (must match with the profile name(s) defined in ~/.aws/credentials)
@@ -84,8 +74,6 @@ How to run: clone the repository, authenticate to Okta from your shell session, 
 TIP: You can redirect the output to a text file and use it on Excel or any other data visualization program to apply filters, create charts, etc.
 
 ### list-alarms.sh ###
-
-Author: Marcos Monteiro de Souza, <Marcos.Monteiro@gmail.com>
 
 Objective: List CloudWatch Alarms, which SNS topics are being used for each possible action, and alarm state for AWS accounts
 
